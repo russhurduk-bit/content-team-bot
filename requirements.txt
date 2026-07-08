@@ -1,0 +1,25 @@
+# Telegram bot framework
+aiogram>=3.4,<4
+
+# HTTP
+requests>=2.31
+aiohttp>=3.9
+
+# Link tracker (FastAPI redirect server)
+fastapi>=0.110
+uvicorn>=0.29
+
+# Google Sheets integration
+gspread>=6.0
+google-auth>=2.28
+python-dotenv>=1.0
+
+# AI news parser
+feedparser>=6.0
+
+# Optional: read-only Telegram channel analytics
+telethon>=1.34
+
+# External binaries (install separately, not pip):
+#   yt-dlp   — TikTok fetching (competitor radar / own-account stats)
+#   ffmpeg   — extract a frame for video virality analysis
